@@ -28,7 +28,7 @@ ethers: {
 };
 ```
 
-The `ContractFactory` in `getContract` is connected by default to the signer `0` in `env.ethers.signers`, or to `env.ethers.provider` if no signer is available.
+The `ContractFactory` in `getContract` is connected by default to the signer `0` in `env.ethers.signers`.
 
 ## Usage
 There are no additional steps you need to take for this plugin to work. Install it and access ethers through the environment anywhere you need it (tasks, scripts, tests, etc).
